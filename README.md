@@ -16,7 +16,7 @@ Lastwhisper will help you when no more hope, the idea behind lastwhisper is simp
 # Installation
 
 ```sh
-curl -Lsk https://raw.githubusercontent.com/nowak0x01/lastwhisper/main/lastwhisper.hs -o ./lastwhisper.sh
+curl -Lsk https://raw.githubusercontent.com/nowak0x01/lastwhisper/main/lastwhisper.sh -o ./lastwhisper.sh
 chmod +x ./lastwhisper.sh
 ./lastwhisper.sh --usage
 ```
