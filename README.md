@@ -4,12 +4,12 @@
 </h1>
 
 <p align="center">
-  <a href="#installation">✨ Installation</a>
-  <a href="#examples">✨ Examples</a>
+  <a href="#installation">⚡ Installation</a>
+  <a href="#examples">☁ Examples</a>
 </p>
 
 # About
-Lastwhisper will help you when no more hope, the idea behind lastwhisper is simple but it is a powerful tool. shhhh ... don't tell anyone, but the secret is a good wordlist with all information obtained of your target
+##### Lastwhisper is a su bruteforcer tool, lastwhisper will help you when no more hope, the idea behind lastwhisper is simple but it is a powerful tool.
 
 <img src="https://user-images.githubusercontent.com/96009982/173711763-7fbf89c7-1d29-4b4b-81ee-04226666d15a.png" width="900px">
 
@@ -24,10 +24,11 @@ chmod +x ./lastwhisper.sh
 # Examples
 
 ### Single User
-<img src="https://user-images.githubusercontent.com/96009982/173713245-4a463830-0b24-41b5-9b8c-8290cff2400e.png" width="750px">
+<img src="https://user-images.githubusercontent.com/96009982/173858015-d7e135db-cd2f-46da-880b-4efab7fc82eb.gif">
+
 
 ### All Users of System [High CPU Usage!]
-<img src="https://user-images.githubusercontent.com/96009982/173714077-2f6601de-b950-4882-b544-5a7667386879.png">
+<img src="https://user-images.githubusercontent.com/96009982/173858721-edcc81b4-97fc-4304-9be6-8f21c0a583e4.gif">
 
-### Others Shells [ASH Example]
-<img src="https://user-images.githubusercontent.com/96009982/173714780-c43dd45b-e11e-4fd1-948d-9069c0bf2455.png">
+### Others Shells [ZSH Example]
+<img src="https://user-images.githubusercontent.com/96009982/173862949-5c508a2d-9f6a-4f2e-a0e7-ce4e9df9980a.gif">
