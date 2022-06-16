@@ -36,7 +36,7 @@ if ! [ -f "$_wordlist" ];then
 	printf "\n:: wordlist: $_wordlist not found! ::\n"
 	exit 1
 elif ! [ -f "$_binspath" ];then
-	printf "\n:: binarie: $_binspath nout found! ::\n"
+	printf "\n:: binarie: $_binspath not found! ::\n"
 	exit 1
 elif ! [ "`which timeout 2>&-`" ];then
 	printf "\n:: timeout not found in $PATH ::\n"
@@ -56,7 +56,8 @@ stdout()
 		printf "
 \e[7;38m[\$] user: $_user || password: $_passwd [\$]\e[0m
 \$ total-time: $((`date +%s` - $_init)) seconds
-"
+" | tee -a "$_user.pwned"
+		rm -f "$_user.pattern"
 		kill -9 $$
 	fi
 }
@@ -93,6 +94,7 @@ main()
 		sleep $_sleeproc
 	done < "$_user.pattern"
 
+	rm -f "$_user.pattern"
 	wait
 	while IFS='' read -r P || [ -n "${P}" ];do
 		stdout $_user $P &
@@ -102,4 +104,4 @@ main()
 	wait
 }
 
-main $_user && rm -f $_user.pattern
+main $_user
