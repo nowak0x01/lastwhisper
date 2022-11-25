@@ -7,9 +7,7 @@
   <a href="#installation">⚡ Installation</a>
   <a href="#examples">☁ Examples</a>
 </p>
-
-# About
-##### Lastwhisper is a su bruteforcer tool, lastwhisper will help you when no more hope, the idea behind lastwhisper is simple but it is a powerful tool.
+<br>
 
 <img src="https://user-images.githubusercontent.com/96009982/173711763-7fbf89c7-1d29-4b4b-81ee-04226666d15a.png" width="900px">
 
