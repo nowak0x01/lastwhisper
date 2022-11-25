@@ -80,9 +80,6 @@ main()
 	stdout $_user $_user &
 	stdout $_user `printf $_user|rev 2>&-` &
 
-	# for _pattern in ${_array[@]};do         #
-	#	stdout $_user "$_user$_pattern" &    # try fix later, doesnt working :(
-	# done                                    #
 
 	[ -f "$_user.pattern" ] && rm -f "$_user.pattern"
 	for _pattern in ${_array[@]};do
